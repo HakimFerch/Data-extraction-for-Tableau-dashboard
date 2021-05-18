@@ -31,12 +31,14 @@ The final output is a data source to load into tableau which contains 3 CSV file
 * 'CL matches.csv' contains all details of the 604 matches played over the last 3 seasons.
 
 The dashboard consists of 4 barcharts of the 4 metrics i chose to assess teams performance :
+
 * Matches played
 * Winning percentage
 * Goals scored per match
 * Goals against per match
  
  It also contains a Table of the highest scoring players details (Name, Nationality, Position, Teams, Number of goals).
+
 
 
 
