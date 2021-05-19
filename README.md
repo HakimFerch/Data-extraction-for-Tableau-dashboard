@@ -7,7 +7,7 @@ My deep passion for both football and data drove me to think of a project that b
 **"Which clubs were the most performing during the last 3 seasons in the UEFA Champions League?"**.
 
 ## Skills used:
-* ETL (Extract,Trasnform,Load)
+* ETL (Extract,Transform,Load)
 * Data Visualization
 * Dashboard design
 
