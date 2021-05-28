@@ -21,9 +21,9 @@ I used the football-data.org v2 API, a public free to use API which contains dat
 
 I followed The football-data.org's official website contains documentations (https://www.football-data.org/documentation/quickstart) on how to navigate the API and extract specific data using python through API requests.
 
-I used python to pull the champions league data using the requests library, then collect different resouces through filters listed in the documentation. My aim was to build dataframes about all the matches played and the highest scoring players during the last 3 seasons to later use in as data source for the Tableau dashboard.
+I used python to pull the champions league data using the requests library, then collect different resources through filters listed in the documentation. My aim was to build dataframes listing all the matches played and the highest scoring players during the last 3 seasons to later use in as data source for the Tableau dashboard.
 
-The data provided by the API ususaly comes in JSON format, so i had implement functions to extract details relevant to the project, clean and organize data, then transform it depending on the use case.
+The data provided by the API usually comes in JSON format, so i had to implement functions to extract data, clean it, organize it, then transform it depending on the use case.
 
 The final output is a data source to load into tableau which contains 3 CSV files:
 * 'top_scorer.csv'  providing details about the highest scoring players.
@@ -37,7 +37,13 @@ The dashboard consists of 4 barcharts of the 4 metrics i chose to assess teams p
 * Goals scored per match
 * Goals against per match
  
- It also contains a Table of the highest scoring players details (Name, Nationality, Position, Teams, Number of goals).
+It also contains a table of the highest scoring players details such as :
+
+* Name 
+* Nationality
+* Position
+* Teams
+* Number of goals
 
 
 
